@@ -17,6 +17,4 @@ def myfuncsum(z: int) -> int:
 
 
 ic(myfuncsum(6))
-'''("             \n"
- "print(misfunction(a))\n")
- '''
+''' print(misfunction(a))'''
