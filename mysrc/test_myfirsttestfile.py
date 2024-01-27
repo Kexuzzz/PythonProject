@@ -2,5 +2,10 @@ from unittest import TestCase
 
 
 class Test(TestCase):
-    def test_myfuncsum(self):
+    # noinspection PyTypeChecker
+    def test_misfunction(self) -> int:
+        """
+
+        :rtype: int
+        """
         self.fail()
