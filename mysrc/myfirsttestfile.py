@@ -1,8 +1,22 @@
 from loguru import logger
 from icecream import ic
+
 a = int(input())
-logger.info("a = "+ str(a))
-def myfuncsum(z):
+logger.info("a = " + str(a))
+
+
+# noinspection SpellCheckingInspection
+def myfuncsum(z: int) -> int:
+    """
+
+    :param z:
+    :return:
+    :rtype: int
+    """
     return z ** z
+
+
 ic(myfuncsum(6))
-print(myfuncsum(a))
+'''("             \n"
+ "print(misfunction(a))\n")
+ '''
