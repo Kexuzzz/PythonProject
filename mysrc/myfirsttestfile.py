@@ -1,7 +1,7 @@
 from loguru import logger
 from icecream import ic
 
-a = int(input())
+a = int(input('Введите число: '))
 logger.info("a = " + str(a))
 
 
@@ -13,8 +13,8 @@ def myfuncsum(z: int) -> int:
     :return:
     :rtype: int
     """
-    return z ** z
+    return z**z
 
 
 ic(myfuncsum(6))
-''' print(misfunction(a))'''
+""" print(misfunction(a))"""
